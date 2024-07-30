@@ -1,0 +1,81 @@
+@font-face {
+  font-family: x1;
+  src: url("assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  background-color: #2d3250;
+  color: #f8edff;
+  font-family: x1;
+}
+
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.maincube {
+  background-color: #424769;
+  padding: 19px 20px;
+  margin: 20px;
+  width: 340px;
+  height: auto;
+  border-radius: 10px;
+  color: #f8edff;
+  display: block;
+  text-align: center;
+}
+
+.linkcube {
+  background-color: #7077a1;
+  padding: 18px;
+  margin: none;
+  border-radius: 15px 15px;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+#container {
+  transition-duration: 300ms;
+}
+#container:hover {
+  scale: 105% 105%;
+  background-color: #2d303fa2;
+}
+
+.w1,
+.attribution,
+.lnk {
+  background-color: transparent;
+  font-weight: 400;
+}
+
+.adress {
+  color: #f6b17a;
+  font-weight: 600;
+  background-color: transparent;
+}
+
+a:link {
+  color: #f6b17a;
+}
+
+a:visited {
+  color: rgb(0, 181, 227);
+}
+
+@media (max-width: 375px) {
+  .maincube {
+    width: 100%;
+    margin: 10px;
+  }
+
+  /* You can add more specific styles for mobile devices here */
+}
